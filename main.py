@@ -1,16 +1,21 @@
-# This is a sample Python script.
+from tkinter import *
+from interface import Interface
+from hardcore import StoreList
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# Screen setup
+root = Tk()
+root.title('e-Mail Models')
+root.iconbitmap('icon/icon.ico')
+
+# Global variable
+unit_picker = ''
+
+shop_list = StoreList()
+#print(shop_list.store_head())
+
+screen = Interface(root, shop_list.store_head())
+root.mainloop()
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
