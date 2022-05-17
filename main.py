@@ -9,13 +9,8 @@ root.iconbitmap('icon/icon.ico')
 
 # Global variable
 unit_picker = ''
-
+# Class call
 shop_list = StoreList()
-#print(shop_list.store_head())
-
+# Program start
 screen = Interface(root, shop_list.store_head())
 root.mainloop()
-
-
-
-

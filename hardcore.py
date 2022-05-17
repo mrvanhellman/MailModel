@@ -27,6 +27,7 @@ class MailBody:
         self.cnpj = cnpj
         self.insce = insce
         self.ende = ende
+        self.text = ""
 
     def text_block(self):
         unid = self.unid
@@ -36,30 +37,99 @@ class MailBody:
         insce = self.insce
         ende = self.ende
         self.text = """
-        <div>
-        <p>
-        Segue os dados para faturamento e entrega: </P
-        <div>
-        Unidade: {} - {}-{}</div>
-        <p>
-        Cnpj: {}
-        </p>
-        <p>
-        IE: {}
-        </p>
-        <p>
-        Endereço: {}
-        </p>
-        <div>
-        
-        <p>Faturamento para 60 dias.</p>
-        <p>Datas fixas de pagamentos: 05, 10, 15, 20 e 25.</p>
-        <p>O envio das XML : nfe@rech.com</p>
-        <p>Entregar para: </p>
+            </head>
+             
+            <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+            style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+            mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
+            mso-fareast-language:PT-BR'>Boa tarde,<o:p></o:p></span></p>
+            
+            <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+            style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+            mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
+            mso-fareast-language:PT-BR'>&nbsp;<o:p></o:p></span></p>
+            
+            <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+            style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+            mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
+            mso-fareast-language:PT-BR'>Solicito o orçamento do item abaixo:<o:p></o:p></span></p>
+            
+            <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+            style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+            mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
+            mso-fareast-language:PT-BR'>&nbsp;<o:p></o:p></span></p>
+            
+            <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+            style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+            mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
+            mso-fareast-language:PT-BR'>&nbsp;<o:p></o:p></span></p>
+            
+            <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+            style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+            mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
+            mso-fareast-language:PT-BR'>Favor considerar 60 dias para faturamento.<o:p></o:p></span></p>
+            
+            <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+            style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+            mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
+            mso-fareast-language:PT-BR'>Datas fixas de pagamentos: 05, 10, 15, 20 e 25.<o:p></o:p></span></p>
+            
+            <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+            style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+            mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
+            mso-fareast-language:PT-BR'>E-mail para envio de XML: nfe@rech.com<o:p></o:p></span></p>
+            
+            <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+            style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+            mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
+            mso-fareast-language:PT-BR'>Endereço de Entrega e Faturamento:<o:p></o:p></span></p>
+            
+            <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+            style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+            mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
+            mso-fareast-language:PT-BR'>&nbsp;<o:p></o:p></span></p>
+            
+            <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b><span
+            style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+            mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
+            mso-fareast-language:PT-BR'>Unidade: {} - {}/{}</span></b><span style='mso-ascii-font-family:
+            Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+            mso-bidi-font-family:Calibri;color:black;mso-fareast-language:PT-BR'><o:p></o:p></span></p>
+            
+            <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+            style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+            mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
+            mso-fareast-language:PT-BR'>CNPJ: {}<o:p></o:p></span></p>
+            
+            <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+            style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+            mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
+            mso-fareast-language:PT-BR'>IE: {}<o:p></o:p></span></p>
+            
+            <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+            style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+            mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
+            mso-fareast-language:PT-BR'>End.: {}<o:p></o:p></span></p>
+            
+            <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><a
+            name="_MailAutoSig"><span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:
+            "Times New Roman";mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;
+            color:black;mso-fareast-language:PT-BR'>&nbsp;</span></a><span
+            style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+            mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
+            mso-fareast-language:PT-BR'><o:p></o:p></span></p>
+            
+            <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+            style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+            mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
+            mso-fareast-language:PT-BR'>Atenciosamente,<o:p></o:p></span></p>
+            
+            <p class=MsoNormal><o:p>&nbsp;</o:p></p>
+            
+            </div>
 
         """
 
-        # print(text.format(unid, city, state, cnpj, insce, ende))
         return self.text.format(unid, city, state, cnpj, insce, ende)
 
 
@@ -92,15 +162,9 @@ class StoreList:
             for row in dirt_file:
                 list_rows = list(row)
                 simple_list.append(list_rows[0:3])
-                for row in simple_list:
-                    cod, cit, stt = row
-                    formated_text = f'{cod} - {cit}/{stt}'
-                self.head_store_list.append(formated_text)
+                for terms in simple_list:
+                    cod, cit, stt = terms
+                    format_text = f'{cod} - {cit}/{stt}'
+                self.head_store_list.append(format_text)
 
             return self.head_store_list
-
-
-
-
-
-

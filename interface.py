@@ -9,7 +9,7 @@ class Interface:
 
     def __init__(self, master, shop_list):
         myframe = Frame(master)
-        myframe.grid(column=0, row=0, sticky=(N, W, E, S))
+        myframe.grid(column=0, row=0, sticky="NSEW")
 
         self.shop_list = shop_list
 
@@ -65,18 +65,12 @@ class Interface:
         new_mail.new_mail()
 
     def list_picker(self, store_list):
-        store_index = 0
         for sub_list in store_list:
             if unit_picker in sub_list:
                 store_index = store_list.index(sub_list)
                 self.unid, self.city, self.state, self.cnpj, self.insce, self.ende = store_list[store_index]
                 return self.unid, self.city, self.state, self.cnpj, self.insce, self.ende
 
-        # filter_object = filter(lambda a: unit_picker in a, store_list)
-        # index_find = store_list.index(unit_picker)
-        # print(f'Unidade:{unit_picker} - Lista: {store_list}')
-        # self.unid, self.city, self.state, self.cnpj, self.insce, self.ende = list(filter_object)
-        # print( f'unid: {self.unid}, cidade/UF: {self.city}/{self.state} / CNPJ: {self.cnpj} IE: {self.insce}  / End.: {self.ende}')
 
 class StorePicker:
 
