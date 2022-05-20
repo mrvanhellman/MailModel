@@ -1,63 +1,48 @@
-401000 |Varzea Grande| |MT| |05.901.771/0001-73| |13.231.276-0| |Av. Julio Domingos de Campos (Lot e Dalva), 4439A - Marajoara - Várzea Grande - MT - 78138-198|
-401001 |Sinop| |MT| |05.901.771/0002-54 | |13.368.412-1| |Rua João Pedro Moreira de Carvalho, 135, Distrito Industrial - Sinop - MT - 78550-000|
-401002 |Santarem| |PA| |05.901.771/0004-16| |15.286.177-7 | |Av. Cuiabá, 3346, Sala B - Esperança - Santarem - PA - 68040400|
-401003 |Ananindeua| |PA| |05.901.771/0003-35| |15.286.178-5 | |Rod. BR 316 KM5, 366, Sala A - Águas Lindas - Ananindeua - PA - 67020000|
-401004 |Fortaleza| |CE| |05.901.771/0005-05| |06.967973-8| |Rod. BR 116, Lado Par, 03120 - E, Parque Santa Maria, Fortaleza - CE - 60850012|
-401005 |Lorena| |SP| |05.901.771/0006-88| |420176836116| |Av. Carrolton, SN, Sala 2, Cidade Industrial - Lorena - SP - 12609170|
-401006 |Corporativo / SC| |SC| |05.901.771/0007-69| 256240795 |Rua Dr. Pedro Ferreira, 333 - 11° andar - Centro, Itajaí - SC, 88301-030|
-401007 |Goiania| |GO| |05.901.771/0008-40| |10.503.966-7| |Av. São Francisco, 1500, Quadra 39, Lote 02E, Santa Genoveva, Goiania - GO - 74670010|
-401008 |Jaboatão dos Guararapes| |PE| |05.901.771/0009-20 | |0446281-53| |Rod. BR 101 Sul, 1532, KM 81 70 GP B02, Prazeres - Jabotão dos Guararapes - PE - 54335000|
-401009 |Porto velho| |RO| |05.901.771/0010-64| 3756785 |Av. Nações Unidas, 1889, Nova Porto Velho, Porto Velho - RO - 76820095|
-401010 |Rio Branco| |AC| |05.901.771/0011-45| |01.036.592/001-80| |Rod. BR 364 Km 01, Galpão, Santa Inês - Rio Branco - AC - 69907704|
-401012 |Itajai (CD)| |SC| |05.901.771/0013-07| 257607757 |Rod. BR 101 KM 121, 8501, Galpões 3 e 6, Cidade Nova - Itajaí - SC - 88308620 |
-401014 |Porto Alegre| |RS| |05.901.771/0014-98| |096/3651404| |Rua Prof. Sarmento Barata, 55 - Navegantes - Porto Alegre - RS - 90240-640|
-401015 |Uberlandia| |MG| |05.901.771/0015-79| |004028633.00-24| |Av. Antônio Thomaz Ferreira de Rezende (Toninho Rezende), 2460, Quadra 1 Lote 3, America, Uberlandia - MG - CEP 38.402-244|
-401016 |Lucas do Rio Verde| |MT| |05.901.771/0016-50| |13.873.941-2| |Av. Amazonas, 2719 S, Setor 03 Quadra 27 Lote 16, Menino Deus, Lucas do Rio Verde - MT - CEP 78.455-000|
-401017 |Correntina| |BA| |05.901.771/0017-30| 179680987 |Rua Cascavel 07, s/n, Quadra 26 Lote 05 e 06, Cidade Rosario, Correntina - BA - CEP 47.650.000|
-401018 |Palmas| |TO| |05.901.771/0018-11| |29.514.395-9| |212 Sul Rua SR 11, nº 11 - (ARSE 25) CONJ 02 LOTE 07 - Plano Diretor Sul, Palmas - TO - CEP 77.020-616|
-401019 |Redenção| |PA| |05.901.771/0019-00| |15.777.896-7| |Av. Tropical, s/n, Lote 13 e 14 Quadra 03, Residencial Tropical, Redenção - PA - CEP 68.554-535|
-401020 |Feira de Santana| |BA| |05.901.771/0020-36| 183837505 |Rod. BR 324, KM 529, Galpão 01 Zona Industrial, Humildes - BA - CEP 44.135-000|
-401021 |Ilhota| |SC| |05.901.771/0021-17| 261416456 |R. José Geraldino Bittencourt, 4001, Galpão 01, Pedra de Amolar, Ilhota-SC - CEP 88320-000|
-601000 |Primavera do Leste| |MT| |10.209.063/0001-06| |13.358.791-6| |Rua Rio de Janeiro, 2809, Quadra 10 Lote 3, Primavera IV, Primavera do Leste - MT - 78850-000|
-601001 |Luis Eduardo Magalhaes| |BA| |10.209.063/0002-97| |009.715.062| |Rua Laci Marcio Hendges, 175, Jardim Imperial, Luis Eduardo Magalhães - BA - 47850000|
-601002 |Itajai (Loja)| |SC| |10.209.063/0003-78| 258856190 |Rod. Jorge Lacerda, 350, Galpão 04 B - Salseiros - Itajaí - SC - 88311605|
-601003 |Primavera do Leste (Deposito) | |MT| |10.209.063/0004-59| |13.735.354-5| |Av. Cascavel, 1112, Quadra06 Lote 03-04-05-17-18, Jardim das Américas VIII - Primavera do Leste - MT - 78850000|
-601004 |Goiania| |GO| |10.209.063/0005-30| |10.752.107-5| |Av. São Francisco, 735, Quadra 34, Lote 43, Anexo 749, Santa Genoveva, Goiania - GO - 74670010|
-601005 |Nova Mutum| |MT| |10.209.063/0006-10| |13.780.308-7| |Av. José Aparecido Ribeiro, 705S, Lote 03 Quadra A, Comercial José Aparecido Ribeiro - Nova Mutum/MT - 78.450-000|
-601006 |Sorriso| |MT| |10.209.063/0007-00| |13.780.309-5| |Av. Perimetral Sudeste, 11711, Centro, Sorriso - MT, 78890000|
-601007 |Sapezal| |MT| |10.209.063/0008-82| | 13.780.306-0| |Av. Prefeito André Antônio Maggi, 1449SW, Cidezal I, Sapezal-MT|
-601008 |Campo Novo Parecis| |MT| |10.209.063/0009-63| | 13.780.307-9| |Av. Lions Internacional, 191, Jardim Alvorada, Campo Novo do Perecis - MT|
-601009 |Querencia| |MT| |10.209.063/0010-05| |13.780.305-2| |RUA AV SUL, 1126, QUADRA13 LOTE 16 E 17, SALA 01 E 02, Setor A, Querência - MT - 78643-000|
-601010 |Sinop| |MT| |10.209.063/0011-88| |13.821.718-1| |RUA R JOAO PEDRO MOREIRA DE CARVALHO 5826, Sinop - MT|
-601011 |Rondonopolis| |MT| |10.209.063/0015-01| |13.821.720-3| |Rua FERNANDO CORREA DA COSTA,3976, 78705-841, VILA ADRIANA - Rondonopolis - MT|
-601012 |Confresa| |MT| |10.209.063/0012-69| |13.821.719-0| |Av. BRASIL QUADRA03 LOTE 04, SETOR SUL, Confresa - MT - 78652-000|
-601013 |Rio Verde| |GO| |10.209.063/0016-92| |10.798.733-3| |Av. Carrinho Cunha, SN, Quadra C, Lote F - LTS 05/06/07/08 - Cidade Empresarial Nova Aliança - Rio Verde - GO - 75913200|
-601014 |Balsas| |MA| |10.209.063/0013-40| |12.661769-4| |Av. Governador Luiz Rocha, SN, Quadra 33, Lote 1-4, Potosi - Balsas - MA - 65800000|
-601015 |Luis Eduardo Magalhaes| |BA| |10.209.063/0014-20| 168446130 |Rua Regina Gomes Bergamini, 148, Jardim Imperial, Luis Eduardo Magalhães - BA - CEP 47850000|
-601016 |Horizontina| |RS| |10.209.063/0017-73| |062/0042524| |Av. dos Imigrantes, 507, Centro - Horizontina - RS - 98920-000|
-601017 |Cuiabá| |MT| |10.209.063/0018-54| |13.887.818-8| |Av. Pedro Paulo de Faria Junio, 100, QuadraInd. 2/4, Área B - Distrito Industrial - Cuiabá - MT|
-601018 |Campo Verde| |MT| |10.209.063/0019-35| |13.895.169-1| |Av. Brasilia, 1216, Quadra 34 Lote 27, Green Ville, Campo Verde - MT - CEP 78.840-000|
-601019 |São Paulo| |SP| |10.209.063/0020-79| |131.889.210.116| |Rua Dianopolis, 770, Parque da Mooca, São Paulo - SP - CEP 03.126-007|
-601020 |Várzea Grande| |MT| |10.209.063/0035-55| |13.913.194-9| |AV JULIO DOMINGOS DE CAMPOS (LOT E DALVA), nº 4439 - MARAJOARA - VÁRZEA GRANDE - MT|
-601021 |Sinop| |MT| |10.209.063/0040-12| |13.913.196-5| |R JOAO PEDRO MOREIRA DE CARVALHO, nº 135 - Distrito Industrial - Sinop/MT|
-601022 |Santarem| |PA| |10.209.063/0025-83| |15.807.571-4 | |Av. Cuiabá, nº 3346 - Sala B - Sale - Santarém-PA|
-601023 |Ananindeua| |PA| |10.209.063/0038-06| |15.807.400-9| |Rod. BR 316 KM5, 366, Sala A - Águas Lindas - Ananindeua - PA - 67020000|
-601024 |Fortaleza| |CE| |10.209.063/0032-02| |07.046355-7| |Rod. BR 116, Lado Par, 03120 - E, Parque Santa Maria, Fortaleza - CE - 60850012|
-601025 |Goiania| |GO| |10.209.063/0029-07| |10.878.780-0| |Av. São Francisco, 1700, Quadra 39, Lote 02E, Santa Genoveva, Goiania - GO - 74670010|
-601026 |Jaboatão dos Guararapes| |PE| |10.209.063/0039-89| |1011631-18| |RODOVIA BR 101  SUL 1532 KM 81 70 GP B 02, PRAZERES, JABOATAO DOS GUARARAPES - PE, CEP: 54335000|
-601027 |Rio Branco| |AC| |10.209.063/0028-26| |01.077.637/001-11| |Rod. BR 364 Km 01, Galpão, Santa Inês - Rio Branco - AC - 69907704|
-601028 |Itajaí (CD)| |SC| |10.209.063/0026-64| 261472763 |Rod. BR 101 KM 121, 8501, Galpões 3 e 6, Cidade Nova - Itajaí - SC - 88308620 |
-601030 |Uberlândia| |MG| |10.209.063/0027-45| |004227783.00-46| |Av. Antônio Thomaz Ferreira de Rezende (Toninho Rezende), 2460, Quadra 1 Lote 3, America, Uberlandia - MG - CEP 38.402-244|
-601031 |Lucas do Rio Verde| |MT| |10.209.063/0037-17| | 13.913.195-7| |AV AMAZONAS, nº 2719S - SETOR 03 QUADRA27 LOTE 16 - Menino Deus - Lucas do Rio Verde/MT|
-601032 |Correntina| |BA| |10.209.063/0034-74| 189614614 |Rua Cascavel 07, s/n, Quadra 26 Lote 05 e 06, Cidade Rosario, Correntina - BA - CEP 47.650.000|
-601033 |Palmas| |TO| |10.209.063/0030-40| nan |212 Sul Rua SR 11, nº 11 - (ARSE 25) CONJ 02 LOTE 07 - Plano Diretor Sul, Palmas - TO - CEP 77.020-616|
-601034 |Redenção| |PA| |10.209.063/0031-21| |15.807.401-7 | |Av. Tropical, s/n, Lote 13 e 14 Quadra 03, Residencial Tropical, Redenção - PA - CEP 68.554-535|
-601035 |Feira de santana| |BA| |10.209.063/0033-93| 189700861 |Rod. BR 324, KM 529, Galpão 01 Zona Industrial, Humildes - BA - CEP 44.135-000|
-601050 |Água Boa| |MT| |10.209.063/0043-65| | 13.917.437-0| |AV INDUSTRIAL, nº 1570 - LOTE 07 QUADRA042 - Industrial V - Água Boa/MT|
-601051 |Hidrolandia| |GO| |10.209.063/0021-50| |10.869.895-5| |Rod. BR 153, KM 20 à direita, S/N, Alto da Boa Vista, Hidrolândia - GO - 75.340-000|
-601052 |Bom Jesus| |PI| |10.209.063/0023-11| 197069797 |Av. Ademar Diogenes, S/N, São Pedro, Bom Jesus - PI - CEP 64.900-000|
-601053 |Chapadão do Sul| |MS| |10.209.063/0024-00| |28.465.113-3| |Av. Dois, 1015, Centro, Chapadão do Sul - MS - CEP 79.560-000 |
-601054 |Porto Alegre| |RS| |10.209.063/0022-30| |096/3887548| |Av. das Indústrias, 1303 - São João - Porto Alegre-RS - CEP: 90.200-290|
-601055 |Itajaí| |SC| |10.209.063/0036-36| nan |R DOUTOR PEDRO FERREIRA, nº 333 - Sala 1105 - Centro - Itajaí-SC - CEP: 88.301-030|
-601056 |Cascavel| |PR| |10.209.063/0041-01| |90925576-74| |Rodovia BR 277, S/N, KM 599, Área Rural - Cascavel-PR - CEP 85.820-899|
-601057 |Curitiba| |PR| |10.209.063/0042-84| |90926680-77| |Av. Juscelino Kubitschek De Oliveira, 501, Cidade Industrial, Curitiba - PR - CEP 81.280-140|
+401000;"Varzea Grande";"MT";"05.901.771/0001-73";"13.231.276-0";"Av. Julio Domingos de Campos (Lot e Dalva), 4439A - Marajoara - Várzea Grande - MT - 78138-198"
+401006;"Administrativo";"SC";"05.901.771/0007-69";256240795;"Rua Dr. Pedro Ferreira, 333 - 11° andar - Centro, Itajaí - SC, 88301-030"
+401021;"Ilhota";"SC";"05.901.771/0021-17";261416456;"R. José Geraldino Bittencourt, 4001, Galpão 01, Pedra de Amolar, Ilhota-SC - CEP 88320-000"
+601000;"Primavera do Leste";"MT";"10.209.063/0001-06";"13.358.791-6";"Rua Rio de Janeiro, 2809, Quadra 10 Lote 3, Primavera IV, Primavera do Leste - MT - 78850-000"
+601001;"Luis Eduardo Magalhaes";"BA";"10.209.063/0002-97";"009.715.062";"Rua Laci Marcio Hendges, 175, Jardim Imperial, Luis Eduardo Magalhães - BA - 47850000"
+601003;"Primavera do Leste (Deposito) ";"MT";"10.209.063/0004-59";"13.735.354-5";"Av. Cascavel, 1112, Quadra06 Lote 03-04-05-17-18, Jardim das Américas VIII - Primavera do Leste - MT - 78850000"
+601004;"Goiania";"GO";"10.209.063/0005-30";"10.752.107-5";"Av. São Francisco, 735, Quadra 34, Lote 43, Anexo 749, Santa Genoveva, Goiania - GO - 74670010"
+601005;"Nova Mutum";"MT";"10.209.063/0006-10";"13.780.308-7";"Av. José Aparecido Ribeiro, 705S, Lote 03 Quadra A, Comercial José Aparecido Ribeiro - Nova Mutum/MT - 78.450-000"
+601006;"Sorriso";"MT";"10.209.063/0007-00";"13.780.309-5";"Av. Perimetral Sudeste, 11711, Centro, Sorriso - MT, 78890000"
+601007;"Sapezal";"MT";"10.209.063/0008-82";" 13.780.306-0";"Av. Prefeito André Antônio Maggi, 1449SW, Cidezal I, Sapezal-MT"
+601008;"Campo Novo Parecis";"MT";"10.209.063/0009-63";" 13.780.307-9";"Av. Lions Internacional, 191, Jardim Alvorada, Campo Novo do Perecis - MT"
+601009;"Querencia";"MT";"10.209.063/0010-05";"13.780.305-2";"RUA AV SUL, 1126, QUADRA13 LOTE 16 E 17, SALA 01 E 02, Setor A, Querência - MT - 78643-000"
+601010;"Sinop";"MT";"10.209.063/0011-88";"13.821.718-1";"RUA R JOAO PEDRO MOREIRA DE CARVALHO 5826, Sinop - MT"
+601011;"Rondonopolis";"MT";"10.209.063/0015-01";"13.821.720-3";"Rua FERNANDO CORREA DA COSTA,3976, 78705-841, VILA ADRIANA - Rondonopolis - MT"
+601012;"Confresa";"MT";"10.209.063/0012-69";"13.821.719-0";"Av. BRASIL QUADRA03 LOTE 04, SETOR SUL, Confresa - MT - 78652-000"
+601013;"Rio Verde";"GO";"10.209.063/0016-92";"10.798.733-3";"Av. Carrinho Cunha, SN, Quadra C, Lote F - LTS 05/06/07/08 - Cidade Empresarial Nova Aliança - Rio Verde - GO - 75913200"
+601014;"Balsas";"MA";"10.209.063/0013-40";"12.661769-4";"Av. Governador Luiz Rocha, SN, Quadra 33, Lote 1-4, Potosi - Balsas - MA - 65800000"
+601015;"Luis Eduardo Magalhaes";"BA";"10.209.063/0014-20";168446130;"Rua Regina Gomes Bergamini, 148, Jardim Imperial, Luis Eduardo Magalhães - BA - CEP 47850000"
+601016;"Horizontina";"RS";"10.209.063/0017-73";"062/0042524";"Av. dos Imigrantes, 507, Centro - Horizontina - RS - 98920-000"
+601017;"Cuiabá";"MT";"10.209.063/0018-54";"13.887.818-8";"Av. Pedro Paulo de Faria Junio, 100, QuadraInd. 2/4, Área B - Distrito Industrial - Cuiabá - MT"
+601018;"Campo Verde";"MT";"10.209.063/0019-35";"13.895.169-1";"Av. Brasilia, 1216, Quadra 34 Lote 27, Green Ville, Campo Verde - MT - CEP 78.840-000"
+601019;"São Paulo";"SP";"10.209.063/0020-79";"131.889.210.116";"Rua Dianopolis, 770, Parque da Mooca, São Paulo - SP - CEP 03.126-007"
+601020;"Várzea Grande";"MT";"10.209.063/0035-55";"13.913.194-9";"AV JULIO DOMINGOS DE CAMPOS (LOT E DALVA), nº 4439 - MARAJOARA - VÁRZEA GRANDE - MT"
+601021;"Sinop";"MT";"10.209.063/0040-12";"13.913.196-5";"R JOAO PEDRO MOREIRA DE CARVALHO, nº 135 - Distrito Industrial - Sinop/MT - CEP: 78550-000"
+601022;"Santarem";"PA";"10.209.063/0025-83";"15.807.571-4 ";"Av. Cuiabá, nº 3346 - Sala B - Sale - Santarém-PA - 68040-400"
+601023;"Ananindeua";"PA";"10.209.063/0038-06";"15.807.400-9";"Rod. BR 316 KM5, 366, Sala A - Águas Lindas - Ananindeua - PA - 67020000"
+601024;"Fortaleza";"CE";"10.209.063/0032-02";"07.046355-7";"Rod. BR 116, Lado Par, 03120 - E, Parque Santa Maria, Fortaleza - CE - 60850012"
+601025;"Goiania";"GO";"10.209.063/0029-07";"10.878.780-0";"Av. São Francisco, 1700, Quadra 39, Lote 02E, Santa Genoveva, Goiania - GO - 74670010"
+601026;"Jaboatão dos Guararapes";"PE";"10.209.063/0039-89";"1011631-18";"RODOVIA BR 101  SUL 1532 KM 81 70 GP B 02, PRAZERES, JABOATAO DOS GUARARAPES - PE, CEP: 54335000"
+601027;"Rio Branco";"AC";"10.209.063/0028-26";"01.077.637/001-11";"Rod. BR 364 Km 01, Galpão, Santa Inês - Rio Branco - AC - 69907704"
+601028;"Itajaí (CD)";"SC";"10.209.063/0026-64";261472763;"Rod. BR 101 KM 121, 8501, Galpões 3 e 6, Cidade Nova - Itajaí - SC - 88308620 "
+601030;"Uberlândia";"MG";"10.209.063/0027-45";"004227783.00-46";"Av. Antônio Thomaz Ferreira de Rezende (Toninho Rezende), 2460, Quadra 1 Lote 3, America, Uberlandia - MG - CEP 38.402-244"
+601031;"Lucas do Rio Verde";"MT";"10.209.063/0037-17";" 13.913.195-7";"AV AMAZONAS, nº 2719S - SETOR 03 QUADRA27 LOTE 16 - Menino Deus - Lucas do Rio Verde/MT"
+601032;"Correntina";"BA";"10.209.063/0034-74";189614614;"Rua Cascavel 07, s/n, Quadra 26 Lote 05 e 06, Cidade Rosario, Correntina - BA - CEP 47.650.000"
+601033;"Palmas";"TO";"10.209.063/0030-40";nan;"212 Sul Rua SR 11, nº 11 - (ARSE 25) CONJ 02 LOTE 07 - Plano Diretor Sul, Palmas - TO - CEP 77.020-616"
+601034;"Redenção";"PA";"10.209.063/0031-21";"15.807.401-7 ";"Av. Tropical, s/n, Lote 13 e 14 Quadra 03, Residencial Tropical, Redenção - PA - CEP 68.554-535"
+601035;"Feira de santana";"BA";"10.209.063/0033-93";189700861;"Rod. BR 324, KM 529, Galpão 01 Zona Industrial, Humildes - BA - CEP 44.135-000"
+601050;"Água Boa";"MT";"10.209.063/0043-65";" 13.917.437-0";"AV INDUSTRIAL, nº 1570 - LOTE 07 QUADRA042 - Industrial V - Água Boa/MT"
+601051;"Hidrolandia";"GO";"10.209.063/0021-50";"10.869.895-5";"Rod. BR 153, KM 20 à direita, S/N, Alto da Boa Vista, Hidrolândia - GO - 75.340-000"
+601052;"Bom Jesus";"PI";"10.209.063/0023-11";197069797;"Av. Ademar Diogenes, S/N, São Pedro, Bom Jesus - PI - CEP 64.900-000"
+601053;"Chapadão do Sul";"MS";"10.209.063/0024-00";"28.465.113-3";"Av. Dois, 1015, Centro, Chapadão do Sul - MS - CEP 79.560-000 "
+601054;"Porto Alegre";"RS";"10.209.063/0022-30";"096/3887548";"Av. das Indústrias, 1303 - São João - Porto Alegre-RS - CEP: 90.200-290"
+601055;"Itajaí";"SC";"10.209.063/0036-36";nan;"R DOUTOR PEDRO FERREIRA, nº 333 - Sala 1105 - Centro - Itajaí-SC - CEP: 88.301-030"
+601056;"Cascavel";"PR";"10.209.063/0041-01";"90925576-74";"Rodovia BR 277, S/N, KM 599, Área Rural - Cascavel-PR - CEP 85.820-899"
+601057;"Curitiba";"PR";"10.209.063/0042-84";"90926680-77";"Av. Juscelino Kubitschek De Oliveira, 501, Cidade Industrial, Curitiba - PR - CEP 81.280-140"
+"TELMTZ";"Ribeirão Preto";"MT";"54.832.555/0001-29";582183456113;"Avenida Presidente Castelo Branco, n.º 2.800 – Nova Ribeirânia – Ribeirão Preto (SP) – CEP: 14096-560"
+"TELMRG";"Maringá";"BA";"54.832.555/0003-90";"90776321-80";"Rodovia BR 376 (saída para Paranavaí), n.º 11.361 – Gleba Patrimônio Maringá – Maringá (PR) – CEP: 87070-610"
+"TELHDL";"Hidrolândia";"GO";"54.832.555/0004-71";"10.792.564-8";"Rod. BR 153, KM 518 Lote 08 Galpão 01 Armazém 13, S/N, Zona de Expansão Empresarial, Hidrolândia - GO - 75.340-000"

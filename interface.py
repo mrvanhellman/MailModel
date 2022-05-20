@@ -43,9 +43,10 @@ class Interface:
         self.proxy_file = StringVar
         self.unit_pick = StringVar
 
-        self.unid = StringVar
+        self.unid = ""
         self.city = StringVar
         self.state = StringVar
+        self.cname = ""
         self.cnpj = StringVar
         self.insce = StringVar
         self.ende = StringVar
@@ -60,7 +61,8 @@ class Interface:
         text.unit_selected()
         full_list = StoreList()
         self.list_picker(full_list.store_list())
-        mail_body = MailBody(self.unid, self.city, self.state, self.cnpj, self.insce, self.ende)
+        self.cname = self.company_name(self.unid)
+        mail_body = MailBody(self.unid, self.city, self.state, self.cname, self.cnpj, self.insce, self.ende)
         new_mail = SaveMail(mail_body.text_block(), subject, reference)
         new_mail.new_mail()
 
@@ -70,6 +72,14 @@ class Interface:
                 store_index = store_list.index(sub_list)
                 self.unid, self.city, self.state, self.cnpj, self.insce, self.ende = store_list[store_index]
                 return self.unid, self.city, self.state, self.cnpj, self.insce, self.ende
+
+    def company_name(self, unid):
+        if unid.startswith('40'):
+            return "Rech Importadora e Distribuidora S.A."
+        elif unid.startswith('60'):
+            return "Rech Agricola S/A"
+        elif unid.startswith('TE'):
+            return "Telmac Comércio Importação e Exportação Ltda"
 
 
 class StorePicker:

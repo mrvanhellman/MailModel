@@ -14,16 +14,21 @@ class SaveMail:
 
     def new_mail(self):
         self.mail.Subject = self.subject
-        self.mail.HTMLBody = self.body
+        # self.mail.HTMLBody = self.body
+        # Open the window with email text
+        self.mail.Display()
+        index = self.mail.HTMLbody.find('>', self.mail.HTMLbody.find('<body'))
+        self.mail.HTMLbody = self.mail.HTMLbody[:index + 1] + self.body + self.mail.HTMLbody[index + 1:]
         self.mail.Save()
 
 
 class MailBody:
 
-    def __init__(self, unid, city, state, cnpj, insce, ende):
+    def __init__(self, unid, city, state, cname, cnpj, insce, ende):
         self.unid = unid
         self.city = city
         self.state = state
+        self.cname = cname
         self.cnpj = cnpj
         self.insce = insce
         self.ende = ende
@@ -33,12 +38,12 @@ class MailBody:
         unid = self.unid
         city = self.city
         state = self.state
+        cname = self.cname
         cnpj = self.cnpj
         insce = self.insce
         ende = self.ende
         self.text = """
-            </head>
-             
+            <div>
             <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
             style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
             mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
@@ -99,6 +104,11 @@ class MailBody:
             <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
             style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
             mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
+            mso-fareast-language:PT-BR'> {}<o:p></o:p></span></p>
+            
+            <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+            style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+            mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
             mso-fareast-language:PT-BR'>CNPJ: {}<o:p></o:p></span></p>
             
             <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
@@ -130,7 +140,7 @@ class MailBody:
 
         """
 
-        return self.text.format(unid, city, state, cnpj, insce, ende)
+        return self.text.format(unid, city, state, cname, cnpj, insce, ende)
 
 
 class StoreList:
@@ -147,7 +157,7 @@ class StoreList:
 
     def store_list(self):
         with open("stores.csv", "r") as csvfile:
-            dirt_file = csv.reader(csvfile, delimiter=' ', quotechar='|')
+            dirt_file = csv.reader(csvfile, delimiter=';', quotechar='"')
             simple_list = []
             for row in dirt_file:
                 list_rows = list(row)
@@ -157,7 +167,7 @@ class StoreList:
 
     def store_head(self):
         with open("stores.csv", "r") as csvfile:
-            dirt_file = csv.reader(csvfile, delimiter=' ', quotechar='|')
+            dirt_file = csv.reader(csvfile, delimiter=';', quotechar='"')
             simple_list = []
             for row in dirt_file:
                 list_rows = list(row)
